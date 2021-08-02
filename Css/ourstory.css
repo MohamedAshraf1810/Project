@@ -1,0 +1,405 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* section 1 */
+
+.section1
+{
+    
+    width: 100%;
+    background-image: linear-gradient(rgba(78,202,194 , 0.7), rgba(78,202,194,0.7 )), url("../Additions/images/hipster-girls-working-705x296.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: 900;
+}
+
+.containerDiv2 ul li a
+{
+    font-family:sans-serif;
+}
+
+.containerDiv2 ul li
+{
+    font-weight: bold;
+}
+
+.breaks
+{
+    margin-top: 50px;
+    background-color: white;
+}
+
+/* End Section 1 */
+
+/* section 2 */
+.productS1Div p
+{
+    font-size: 36px;
+}
+
+.productSection2Div1
+{
+    font-weight: 100;
+}
+
+.productSection2Div1 a:nth-child(4)
+{
+    border: none;
+    border-right: 1px solid rgb(196, 196, 196);
+    padding: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.productSection2Div1 a:nth-child(5)
+{
+    border: solid 1px rgb(153, 153, 153);
+    padding: 9px;
+}
+
+/* End section 2 */
+
+/* our story Section 3 */
+
+.ourstorysection3
+{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.ourstorysection3 div:nth-child(1)
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ourstorysection3 div:nth-child(2)
+{
+    background-color: black;
+}
+
+.ourstorysection3 div p 
+{
+    margin-bottom: 0px;
+}
+
+/* End section 3 */
+
+/* section 4 */
+.ourstorysection4
+{
+    width: 100%;
+    height: 530px;
+}
+
+.ourstorysection4Div1
+{
+    padding-bottom: 50px;
+}
+
+.cont
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#rowdiv1
+{
+    width: 450px;
+    padding-right: 50px;
+}
+
+.ourstorysection4Div1 h4
+{
+    font-weight: 900;
+}
+
+.ourstorysection4Div1 p
+{
+    margin-bottom:0 ;
+    font-weight: 600;
+    color: rgb(157,157,157);
+}
+
+.ourstorysection4Div1 p:nth-child(5)
+{
+    margin-bottom: 15px;
+}
+
+.ourstorysection4Div1 a
+{
+    color: rgb(78,202,194);
+}
+
+.ourstorysection4Div1 a:hover
+{
+    font-weight: 600;
+    color: rgb(78,202,194);
+
+}
+/* End section 4 */
+
+/* section 5 */
+.ourstorysection5
+{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(161, 161, 161, 0.7), rgba(58, 58, 58, 0.7)), url("../Additions/images/desat-team-walking-705x296.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourstorysection5 div div
+{
+    background-color: black;    
+}
+/* End section 5 */
+
+/* Section 6 */
+
+
+.ourstorysection6
+{
+    margin-bottom: 50px;
+}
+
+.ourstorysection6main1
+{
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ourstorysection6main2
+{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ourstorysection6dv
+{
+    position: relative;
+    margin-right: 50px;
+}
+
+.ourstorysection6dv div:nth-child(3) h4 , p
+{
+    font-weight: 900;
+}
+
+.alignleft
+{
+    text-align: left;
+}
+
+.ourstorysection6dv div:nth-child(3) h4
+{
+    margin-bottom: 0;
+}
+
+.ourstorysection6dv div:nth-child(3) p
+{
+    color: rgb(134, 134, 134);
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.ourstorysection6dv div:nth-child(3) p:nth-child(2)
+{
+    color: rgb(197, 197, 197);
+    margin-bottom: 10px;
+}
+
+.ourstorysection6dv:hover .ourstorysection6Div1div1
+{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-facebook:hover , .fa-globe-europe:hover , .fa-twitter:hover
+{
+    color: aquamarine;
+}
+
+.ourstorysection6dv:hover .opacityimg
+{
+    opacity: 0.6;
+    transition: 1s;
+}
+
+.ourstorysection6 div , .followSection6 div
+{
+    width: 354px;
+    height: 356px;
+    text-align: center;
+}
+
+.fa-facebook ,.fa-globe-europe , .fa-twitter
+{
+    color: white;
+    font-size: 60px;
+    transition: 0.5s;
+    padding-right: 5px;
+}
+
+.ourstorysection6Div1div1
+{
+    border: 7px solid grey;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+
+/* End Section 6 */
+
+/* Section 6 follow */
+.followSection6
+{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around; 
+    width: 80%;
+    margin: auto; 
+    height: 750px;
+}
+/* End Follow Section 6 */
+
+/* section 7 */
+
+.ourstorysection7
+{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(255,255,255 , 0.4), rgba(255,255,255,0.4 )), url("../Additions/images/abc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+#breaksEdit
+{
+    background-color: black;
+}
+
+/* End section 7 *
+
+/* Section 8 */
+
+.ourstorysection8
+{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 900px;
+}
+
+.ourstorysection8Div1-Container
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.ourstorysection8Div1-Container div
+{
+    overflow: hidden;
+}
+
+.ourstorysection8Div1-Container div img
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    transition: 1s;
+}
+
+.ourstorysection8Div1-Container div img:hover
+{
+    opacity: 1;
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+}
+/* End Section 8 */
+
+/* Section9 */
+
+.ourstorysection9
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.ourstorysection9-container1
+{
+    width: 60%;
+}
+
+.ourstorysection9-container2
+{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(78,202,194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ourstorysection9-container2 input
+{
+    margin-top: 50px;
+    padding: 20px;
+    padding: 20px  50px 20px 50px; 
+    background-color: transparent;
+    border: solid white;
+    color: white;
+    font-weight: 900
+}
+
+.ourstorysection9-container2 p
+{
+    margin-bottom: 0;
+    color: white;
+}
+
+
+
+.carousel-item
+{
+    height: 500px;
+}
+
+/* End section 9 */
+
+#fatwitteredit
+{
+    font-size: 30px;
+    margin-right: -5px;
+}
+
+#fatwitteredit:hover
+{
+    color: white;
+}

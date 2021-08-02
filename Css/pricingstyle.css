@@ -1,0 +1,709 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "lato";
+}
+
+.containerDiv2 ul li a
+{
+    font-family:sans-serif;
+}
+
+#mysec1
+{
+    height: 600px;
+    background-image: linear-gradient(rgba(78,202,194 , 0.8), rgba(78,202,194,0.8 )), url("../Additions/images/pricing_big-705x470.jpg");
+    background-position: top;
+    font-weight: 900;
+}
+
+.productSection2Div1
+{
+    color: grey;
+    z-index: 100;
+    top: 50px;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.productSection2Div1 a:nth-child(4)
+{
+    border: solid grey 1px;
+    padding: 6px;
+}
+
+.pricingSection3
+{
+    margin: auto;
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.priductSection5
+{
+    padding-bottom: 50px;
+}
+
+.frame
+{
+    border: solid 2px rgb(247, 247, 247); 
+    width: 320px;
+    margin: auto;
+    text-align: center;
+}
+
+.frame div:nth-child(1)
+{
+    height: 50px;
+    background-color: rgb(95,219,211);
+    line-height: 50px;
+    color: white;
+    font-weight: 900;
+}
+
+.frame div:nth-child(2)
+{
+    height: 120px;
+    background-color: rgb(78,202,194);
+    color: white;
+    font-size: 60px;
+}
+
+.frame div:nth-child(2) span
+{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.sizingsmall
+{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -30px;
+    font-weight: 600;
+}
+
+.frame div:nth-child(3) p:nth-child(1) , .frame div:nth-child(3) p:nth-child(3) , .frame div:nth-child(3) p:nth-child(5) 
+{
+    background-color: rgb(252,252,252);
+    padding: 10px;
+    margin-bottom: 0;
+    height: 44px;
+    font-weight: 900;
+    color: rgb(157,157,157);
+    font-size: 12px;
+}
+.frame div:nth-child(3) p:nth-child(2) , .frame div:nth-child(3) p:nth-child(4) ,.frame div:nth-child(3) p:nth-child(6) 
+{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 0;
+    height: 44px;
+    font-weight: 900;
+    color: rgb(157,157,157);
+    font-size: 12px;
+}
+.frame div:nth-child(4)
+{
+    background-color: rgb(252,252,252);
+    padding: 5px;
+}
+
+.frame div:nth-child(4) button 
+{
+    border: none;
+    padding: 12px 25px 12px 25px;
+    background-color: rgb(78,202,194);
+    font-weight: 900;
+    color: white;
+    border-radius: 2px;
+}
+
+#frame3
+{
+    height: 400px;
+}
+
+#frame3 div:nth-child(1)
+{
+    height: 70px;
+    margin-top: -20px;
+    line-height: 70px;
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Section 4 */
+
+.pricingsection4
+{
+    background-color: rgb(252,252,252);
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pricingsection4Div1
+{
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    line-height: 300px;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.breaks
+{
+    margin-top: -40px;
+}
+
+.h4_p
+{
+    font-weight: 900;
+}
+
+.h4_p h4
+{
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+
+.h4_p
+{
+    color: rgb(157,157,157);
+}
+
+.h4_p p:nth-child(3)
+{
+    margin-top: 0;
+} 
+
+.h4_pdiv
+{
+    display: flex;
+}
+
+.h4_pdiv div:nth-child(1)
+{
+    font-size: 38px;
+}
+
+.h4_pdiv div:nth-child(2)
+{
+    margin-left: 10px;
+}
+
+.h4_pdiv div:nth-child(2) p:nth-child(1) 
+{
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.h4_pdiv div:nth-child(2) p:nth-child(2)
+{
+    margin-bottom: 0;
+}
+
+.pricingsection4Div2
+{
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.pricingsection4main
+{
+    display: flex;
+}
+
+.h4_pdiv2 div p
+{
+    margin-bottom: 0;
+}
+.h4_pdiv2 span
+{
+    color: rgb(78,202,194);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#h4_pdiv2Edit
+{
+    display: flex;
+}
+
+#h4_pdiv2Edit div:nth-child(1)
+{
+    width: 7px;
+    background-color: rgb(78,202,194);
+    margin-right: 15px;
+}
+
+#h4_pdiv2Edit div:nth-child(2)
+{
+    font-size: 19px;
+}
+
+.pricingsection4maindv1
+{
+    width: 50%;
+}
+
+.pricingsection4maindv2
+{
+    width: 50%;
+}
+
+/* End section 4 */
+
+/* section 5 */
+.pricingsection5
+{
+    width: 85%;
+    height: 800px;
+    margin: auto;
+}
+
+.mb-0, .my-0
+{
+    overflow: hidden;
+}
+
+.pricingsection5main
+{
+    background-color: rgb(252, 252, 252);
+    height: 100%;
+}
+#headingOne ,#headingTwo , #headingThree , #headingFour ,#headingFive,#headingSix,#headingSeven,#headingEight,#headingNine,#headingTen,#headingEleven,#headingTwilve,#headingThrteen,#headingFourteen,#headingFifteen
+{
+    padding: 0px;
+}
+
+#collapseOne div p , #collapseTwo div p , #collapseThree div p
+{
+    margin-bottom: 0;
+    color: rgb(157,157,157);
+    font-weight: 600;
+}
+
+.fa-plus-square
+{
+    margin-right: 10px;
+    color: rgb(209, 209, 209);
+}
+
+.mb-0 button
+{
+    color: rgb(157, 157, 157);
+}
+
+.mb-0 button:hover
+{
+    text-decoration: none;
+}
+
+.blacking
+{
+    color: black;
+}
+
+.spnedit
+{
+    font-weight: 600;
+}
+
+.pwithoutmargin
+{
+    margin-bottom:0 ;
+    color: rgb(157,157,157);
+    font-weight: 600;
+}
+
+.pricingsection5Div1 ul li
+{
+    list-style: none;
+    display: inline;
+}
+
+.pricingsection5Div1 ul li
+{
+    font-weight: 600;
+    color: rgb(189, 187, 187);
+}
+
+.pricingsection5Div1 ul li span
+{
+    font-weight: 600;
+}
+
+.pricingsection5Div1 ul li:hover
+{
+    color: rgb(78,202,194);
+    text-decoration: underline;
+}
+
+
+/* Section 5 */
+
+
+
+/* section 6 */
+
+.pricingsection6
+{
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.pricingsection6Div1
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pricingsection6Div1 p
+{
+    margin-bottom: 0;
+}
+
+.pricingsection6Div1 p:nth-child(1)
+{
+    margin-top: 50px;
+}
+
+#breaks-edit
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pricingsection6Div2
+{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.rounded-0
+{
+    height: 200px;
+}
+
+.astcolor
+{
+    color: turquoise;
+}
+
+.form-control
+{
+    background-color: rgb(252,252,252);
+    padding: 12px;
+}
+
+select.form-control:not([size]):not([multiple])
+{
+    height: unset;
+}
+
+label
+{
+    font-weight: bold;
+    color: rgb(160, 160, 160);
+}
+
+.submitbtn
+{
+    border: none;
+    background-color: rgb(78,202,194);
+    color: white;
+    padding: 16px 35px;
+}
+
+
+
+/* End section 6 */
+
+
+.extend
+{
+    width: 100%;
+    height: 300px;
+    background-color: crimson;
+}
+
+
+@media(max-width:576px)
+{
+    /* SECTION 1 */
+    #mysec1
+    {
+        height: 400px;
+    }
+
+    .priductSection5
+    {
+        display: none;
+    }
+
+    /* SECTION 3 */
+    .frame div:nth-child(4)
+    {
+        margin-bottom: 30px;
+    }
+
+    .frame
+    {
+        width: 100%;
+    }
+
+    /* SECTION 4 */
+
+    .pricingsection4
+    {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .pricingsection4Div1
+    {
+        line-height: 90px;
+    }
+
+    .pricingsection4Div1P
+    {
+        margin-bottom: 50px;
+    }
+
+    .pricingsection4Div1break
+    {
+        margin-top: 50px;
+    }
+
+    .pricingsection4Div2
+    {
+        width: 85%;
+    }
+
+    .pricingsection4main
+    {
+        display: unset;
+        width: 100%;
+    }
+
+    .pricingsection4maindv1
+    {
+        width: 100%;
+    }
+
+    .pricingsection4maindv2
+    {
+        width: 100%;
+    }
+
+    .pretium
+    {
+        margin-right: 5px;
+    }
+
+    .h4_pdiv div:nth-child(2) p:nth-child(1)
+    {
+        font-size: 14px;
+    }
+    .h4_pdiv div:nth-child(2) p:nth-child(2)
+    {
+        font-size: 14px;
+    }
+
+    .h4_p p:nth-child(3)
+    {
+        font-size: 14px;
+        margin-left: 35px;
+    }
+
+    #pellentesque
+    {
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    /* SECTION 5 */
+    .pricingsection5Div1UL
+    {
+        padding: 0;
+    }
+
+    /* SECTION 6 */
+
+    .pricingsection6
+    {
+        height: 1300px;
+    }
+
+    .spnedit
+    {
+        font-size: 13px;
+    }
+
+    .pricingsection6Div1
+    {
+        margin-top: 70px;
+    }
+
+}
+
+
+@media (min-width: 577px) and (max-width: 767px)
+{
+    /* SECTION 1 */
+    #mysec1
+    {
+        height: 400px;
+    }
+
+    .priductSection5
+    {
+        display: none;
+    }
+
+    /* SECTION 4 */
+
+    .pricingsection4
+    {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .pricingsection4Div1
+    {
+        line-height: 90px;
+    }
+
+    .pricingsection4Div1P
+    {
+        margin-bottom: 50px;
+    }
+
+    .pricingsection4Div1break
+    {
+        margin-top: 50px;
+    }
+
+    .pricingsection4Div2
+    {
+        width: 85%;
+    }
+
+    .pricingsection4main
+    {
+        display: unset;
+        width: 100%;
+    }
+
+    .pricingsection4maindv1
+    {
+        width: 100%;
+    }
+
+    .pricingsection4maindv2
+    {
+        width: 100%;
+    }
+
+    .pretium
+    {
+        margin-right: 5px;
+    }
+
+    .h4_pdiv div:nth-child(2) p:nth-child(1)
+    {
+        font-size: 14px;
+    }
+    .h4_pdiv div:nth-child(2) p:nth-child(2)
+    {
+        font-size: 14px;
+    }
+
+    .h4_p p:nth-child(3)
+    {
+        font-size: 14px;
+        margin-left: 35px;
+    }
+
+    #pellentesque
+    {
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    /* SECTION 5 */
+    .pricingsection5Div1UL
+    {
+        padding: 0;
+    }
+
+    /* SECTION 6 */
+    .pricingsection6
+    {
+        height: 1300px;
+    }
+
+    .spnedit
+    {
+        font-size: 13px;
+    }
+
+    .pricingsection6Div1
+    {
+        margin-top: 70px;
+    }
+
+
+
+
+}
+
+
+@media (min-width:767px) and (max-width:992px)
+{
+    .priductSection5
+    {
+        /* display: none; */
+    }
+
+    .frame div:nth-child(4) button
+    {
+        margin-bottom: 40px;
+    }
+
+    .pricingsection4
+    {
+        height: unset;
+    }
+
+    /* FOOTER */
+    .myfooter
+    {
+        padding-top: 50px;
+    }
+}
+
+
+/*
+@media  (min-width:993px)
+{
+
+} */
